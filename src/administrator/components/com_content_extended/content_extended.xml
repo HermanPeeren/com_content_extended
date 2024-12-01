@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="component" method="upgrade">
 	<name>com_content_extended</name>
-	<author>Joomla! Project</author>
-	<creationDate>2006-04</creationDate>
-	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org</authorUrl>
-	<version>4.0.0</version>
-	<description>COM_CONTENT_XML_DESCRIPTION</description>
-	<namespace path="src">Joomla\Component\Content</namespace>
+	<author>Herman Peeren &amp; Pieter-Jan de Vries</author>
+	<creationDate>2024</creationDate>
+	<copyright>(C) 2024 Yepr/Obix</copyright>
+	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+	<authorEmail>herman@yepr.nl</authorEmail>
+	<authorUrl>obix.nl</authorUrl>
+	<version>1.0.0</version>
+	<description>com_content extended</description>
+	<namespace path="src">Yepr\Component\ContentExtended</namespace>
 
 	<files folder="components/com_content_extended">
 		<folder>forms</folder>
