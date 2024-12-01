@@ -1,0 +1,64 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE settings (PhpStorm)
+.idea/
+*.iml
+out/
+
+# Ignore Joomla-specific files and directories
+administrator/cache/
+cache/
+logs/
+tmp/
+
+# Ignore vendor and composer dependencies if not included in the repo
+vendor/
+composer.lock
+
+# Ignore npm/yarn files (if using Node.js for frontend assets)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment configuration files
+.env
+.env.*
+
+# Ignore compiled files (if applicable)
+*.log
+*.sql
+*.sqlite
+
+# Ignore backup or generated files
+*.bak
+*.swp
+*.swo
+*.zip
+*.tar.gz
+
+# Ignore specific to your component's build artifacts (if any)
+dist/
+build/
+
+# Ignore custom files
+custom.config.php
+custom.env.php
+
+# Ignore temporary development files
+*.tmp
+*.temp
+*.orig
+*.old
+
+# Ignore PHPStorm’s workspace files
+workspace.xml
+tasks.xml
+
+# Ignore any other generated files or folders
+.idea/
+
+# Optional: Specific to Joomla components (adjust as needed)
+media/com_yourcomponent/*
