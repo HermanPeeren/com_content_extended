@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 
 use Joomla\CMS\Language\Text;
 
-/** @var \Yepr\Component\Content_extended\Administrator\View\Featured\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Administrator\View\Featured\HtmlView $this */
 
 /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
 $wa = $this->getDocument()->getWebAssetManager();

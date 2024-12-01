@@ -10,7 +10,7 @@
 
 defined('_JEXEC') or die;
 
-/** @var \Yepr\Component\Content_extended\Site\View\Featured\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Site\View\Featured\HtmlView $this */
 ?>
 <div class="blog-featured">
     <?php if ($this->params->get('show_page_heading') != 0) : ?>

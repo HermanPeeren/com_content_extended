@@ -8,11 +8,11 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Site\Model;
+namespace Yepr\Component\ContentExtended\Site\Model;
 
 use Joomla\CMS\Factory;
-use Yepr\Component\Content_extended\Administrator\Extension\ContentComponent;
-use Yepr\Component\Content_extended\Site\Helper\QueryHelper;
+use Yepr\Component\ContentExtended\Administrator\Extension\ContentComponent;
+use Yepr\Component\ContentExtended\Site\Helper\QueryHelper;
 use Joomla\Database\QueryInterface;
 use Joomla\Registry\Registry;
 use Joomla\Utilities\ArrayHelper;

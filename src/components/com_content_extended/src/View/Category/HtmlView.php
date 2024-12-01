@@ -8,12 +8,12 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Site\View\Category;
+namespace Yepr\Component\ContentExtended\Site\View\Category;
 
 use Joomla\CMS\Factory;
 use Joomla\CMS\MVC\View\CategoryView;
 use Joomla\CMS\Plugin\PluginHelper;
-use Yepr\Component\Content_extended\Site\Helper\RouteHelper;
+use Yepr\Component\ContentExtended\Site\Helper\RouteHelper;
 use Joomla\Registry\Registry;
 
 // phpcs:disable PSR1.Files.SideEffects

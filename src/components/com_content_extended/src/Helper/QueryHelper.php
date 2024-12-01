@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Site\Helper;
+namespace Yepr\Component\ContentExtended\Site\Helper;
 
 use Joomla\CMS\Component\ComponentHelper;
 use Joomla\CMS\Factory;

@@ -16,7 +16,7 @@ use Joomla\CMS\Language\Text;
 use Joomla\CMS\Layout\LayoutHelper;
 use Joomla\CMS\Router\Route;
 
-/** @var \Yepr\Component\Content_extended\Site\View\Form\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Site\View\Form\HtmlView $this */
 /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
 $wa = $this->getDocument()->getWebAssetManager();
 $wa->useScript('keepalive')

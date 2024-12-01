@@ -7,7 +7,7 @@
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Administrator\Event\Model;
+namespace Yepr\Component\ContentExtended\Administrator\Event\Model;
 
 use Joomla\CMS\Event\AbstractImmutableEvent;
 

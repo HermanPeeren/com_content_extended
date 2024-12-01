@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Site\View\Categories;
+namespace Yepr\Component\ContentExtended\Site\View\Categories;
 
 use Joomla\CMS\MVC\View\CategoriesView;
 

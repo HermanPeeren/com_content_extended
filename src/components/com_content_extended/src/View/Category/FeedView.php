@@ -8,14 +8,14 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Site\View\Category;
+namespace Yepr\Component\ContentExtended\Site\View\Category;
 
 use Joomla\CMS\Factory;
 use Joomla\CMS\HTML\HTMLHelper;
 use Joomla\CMS\Language\Text;
 use Joomla\CMS\MVC\View\CategoryFeedView;
 use Joomla\CMS\Router\Route;
-use Yepr\Component\Content_extended\Site\Helper\RouteHelper;
+use Yepr\Component\ContentExtended\Site\Helper\RouteHelper;
 
 // phpcs:disable PSR1.Files.SideEffects
 \defined('_JEXEC') or die;

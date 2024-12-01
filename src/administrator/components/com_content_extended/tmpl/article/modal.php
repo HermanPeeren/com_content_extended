@@ -10,7 +10,7 @@
 
 defined('_JEXEC') or die;
 
-/** @var \Yepr\Component\Content_extended\Administrator\View\Article\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Administrator\View\Article\HtmlView $this */
 ?>
 <div class="subhead noshadow mb-3">
     <?php echo $this->getDocument()->getToolbar('toolbar')->render(); ?>

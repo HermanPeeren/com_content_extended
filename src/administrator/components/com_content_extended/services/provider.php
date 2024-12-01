@@ -21,8 +21,8 @@ use Joomla\CMS\Extension\Service\Provider\MVCFactory;
 use Joomla\CMS\Extension\Service\Provider\RouterFactory;
 use Joomla\CMS\HTML\Registry;
 use Joomla\CMS\MVC\Factory\MVCFactoryInterface;
-use Yepr\Component\Content_extended\Administrator\Extension\ContentComponent;
-use Yepr\Component\Content_extended\Administrator\Helper\AssociationsHelper;
+use Yepr\Component\ContentExtended\Administrator\Extension\ContentComponent;
+use Yepr\Component\ContentExtended\Administrator\Helper\AssociationsHelper;
 use Joomla\DI\Container;
 use Joomla\DI\ServiceProviderInterface;
 
@@ -45,10 +45,10 @@ return new class () implements ServiceProviderInterface {
     {
         $container->set(AssociationExtensionInterface::class, new AssociationsHelper());
 
-        $container->registerServiceProvider(new CategoryFactory('\\Joomla\\Component\\Content_extended'));
-        $container->registerServiceProvider(new MVCFactory('\\Joomla\\Component\\Content_extended'));
-        $container->registerServiceProvider(new ComponentDispatcherFactory('\\Joomla\\Component\\Content_extended'));
-        $container->registerServiceProvider(new RouterFactory('\\Joomla\\Component\\Content_extended'));
+        $container->registerServiceProvider(new CategoryFactory('\\Joomla\\Component\\ContentExtended'));
+        $container->registerServiceProvider(new MVCFactory('\\Joomla\\Component\\ContentExtended'));
+        $container->registerServiceProvider(new ComponentDispatcherFactory('\\Joomla\\Component\\ContentExtended'));
+        $container->registerServiceProvider(new RouterFactory('\\Joomla\\Component\\ContentExtended'));
 
         $container->set(
             ComponentInterface::class,

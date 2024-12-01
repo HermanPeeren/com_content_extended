@@ -13,9 +13,9 @@ defined('_JEXEC') or die;
 use Joomla\CMS\HTML\HTMLHelper;
 use Joomla\CMS\Language\Text;
 use Joomla\CMS\Router\Route;
-use Yepr\Component\Content_extended\Site\Helper\RouteHelper;
+use Yepr\Component\ContentExtended\Site\Helper\RouteHelper;
 
-/** @var \Yepr\Component\Content_extended\Site\View\Category\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Site\View\Category\HtmlView $this */
 $lang   = $this->getLanguage();
 $user   = $this->getCurrentUser();
 $groups = $user->getAuthorisedViewLevels();

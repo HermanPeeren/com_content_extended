@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Administrator\Model;
+namespace Yepr\Component\ContentExtended\Administrator\Model;
 
 use Joomla\Component\Content\Administrator\Model\ArticleModel as ArticleModelOrig;
 

@@ -22,10 +22,10 @@ use Joomla\CMS\Language\Text;
 use Joomla\CMS\Layout\LayoutHelper;
 use Joomla\CMS\Router\Route;
 use Joomla\CMS\Session\Session;
-use Yepr\Component\Content_extended\Administrator\Helper\ContentHelper;
+use Yepr\Component\ContentExtended\Administrator\Helper\ContentHelper;
 use Joomla\Utilities\ArrayHelper;
 
-/** @var \Yepr\Component\Content_extended\Administrator\View\Articles\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Administrator\View\Articles\HtmlView $this */
 
 /** @var \Joomla\CMS\WebAsset\WebAssetManager $wa */
 $wa = $this->getDocument()->getWebAssetManager();

@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Site\View\Article;
+namespace Yepr\Component\ContentExtended\Site\View\Article;
 
 use Joomla\CMS\Categories\Categories;
 use Joomla\CMS\Event\Content;
@@ -22,8 +22,8 @@ use Joomla\CMS\MVC\View\HtmlView as BaseHtmlView;
 use Joomla\CMS\Plugin\PluginHelper;
 use Joomla\CMS\Router\Route;
 use Joomla\CMS\Uri\Uri;
-use Yepr\Component\Content_extended\Site\Helper\AssociationHelper;
-use Yepr\Component\Content_extended\Site\Helper\RouteHelper;
+use Yepr\Component\ContentExtended\Site\Helper\AssociationHelper;
+use Yepr\Component\ContentExtended\Site\Helper\RouteHelper;
 
 // phpcs:disable PSR1.Files.SideEffects
 \defined('_JEXEC') or die;

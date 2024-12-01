@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Administrator\Controller;
+namespace Yepr\Component\ContentExtended\Administrator\Controller;
 
 use Joomla\Component\Content\Administrator\Controller\ArticlesController as ArticlesControllerOrig;
 

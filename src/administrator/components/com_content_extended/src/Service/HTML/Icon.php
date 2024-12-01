@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Administrator\Service\HTML;
+namespace Yepr\Component\ContentExtended\Administrator\Service\HTML;
 
 use Joomla\CMS\Factory;
 use Joomla\CMS\HTML\HTMLHelper;
@@ -17,7 +17,7 @@ use Joomla\CMS\Layout\LayoutHelper;
 use Joomla\CMS\Router\Route;
 use Joomla\CMS\Uri\Uri;
 use Joomla\CMS\Workflow\Workflow;
-use Yepr\Component\Content_extended\Site\Helper\RouteHelper;
+use Yepr\Component\ContentExtended\Site\Helper\RouteHelper;
 use Joomla\Registry\Registry;
 
 // phpcs:disable PSR1.Files.SideEffects

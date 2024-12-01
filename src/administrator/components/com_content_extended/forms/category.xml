@@ -2,7 +2,7 @@
 <form>
 	<help key="Articles:_Edit_Category" />
 	<listhelp key="Articles:_Categories" />
-	<fields name="params" addfieldprefix="Yepr\Component\Content_extended\Administrator\Field">
+	<fields name="params" addfieldprefix="Yepr\Component\ContentExtended\Administrator\Field">
 		<fieldset name="workflow" label="COM_CONTENT_WORKFLOW">
 			<field
 				name="workflow_id"

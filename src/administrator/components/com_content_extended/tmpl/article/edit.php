@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-/** @var \Yepr\Component\Content_extended\Administrator\View\Article\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Administrator\View\Article\HtmlView $this */
 
 defined('_JEXEC') or die;
 

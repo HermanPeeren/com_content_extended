@@ -821,7 +821,7 @@
 		name="list_default_parameters"
 		label="JGLOBAL_LIST_LAYOUT_OPTIONS"
 		description="COM_CONTENT_CONFIG_LIST_SETTINGS_DESC"
-		addfieldprefix="Yepr\Component\Content_extended\Administrator\Field"
+		addfieldprefix="Yepr\Component\ContentExtended\Administrator\Field"
 		>
 		<field
 			name="show_pagination_limit"

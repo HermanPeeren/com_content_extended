@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Administrator\Service\HTML;
+namespace Yepr\Component\ContentExtended\Administrator\Service\HTML;
 
 use Joomla\CMS\Factory;
 use Joomla\CMS\Language\Associations;

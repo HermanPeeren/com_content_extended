@@ -3,7 +3,7 @@
 	<config>
 		<inlinehelp button="show"/>
 	</config>
-	<fieldset addfieldprefix="Yepr\Component\Content_extended\Administrator\Field">
+	<fieldset addfieldprefix="Yepr\Component\ContentExtended\Administrator\Field">
 		<field
 			name="id"
 			type="text"

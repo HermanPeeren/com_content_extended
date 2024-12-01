@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Administrator\Table;
+namespace Yepr\Component\ContentExtended\Administrator\Table;
 
 use Joomla\CMS\Table\Table;
 use Joomla\Database\DatabaseDriver;

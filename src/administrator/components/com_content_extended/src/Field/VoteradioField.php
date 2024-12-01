@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Administrator\Field;
+namespace Yepr\Component\ContentExtended\Administrator\Field;
 
 use Joomla\CMS\Form\Field\RadioField;
 use Joomla\CMS\Plugin\PluginHelper;

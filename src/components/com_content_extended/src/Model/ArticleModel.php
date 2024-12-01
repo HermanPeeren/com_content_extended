@@ -8,14 +8,14 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Site\Model;
+namespace Yepr\Component\ContentExtended\Site\Model;
 
 use Joomla\CMS\Factory;
 use Joomla\CMS\Language\Multilanguage;
 use Joomla\CMS\Language\Text;
 use Joomla\CMS\MVC\Model\ItemModel;
 use Joomla\CMS\Table\Table;
-use Yepr\Component\Content_extended\Administrator\Extension\ContentComponent;
+use Yepr\Component\ContentExtended\Administrator\Extension\ContentComponent;
 use Joomla\Database\ParameterType;
 use Joomla\Registry\Registry;
 use Joomla\Utilities\IpHelper;

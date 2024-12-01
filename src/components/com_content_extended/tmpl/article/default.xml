@@ -12,7 +12,7 @@
 	<!-- Add fields to the request variables for the layout. -->
 	<fields name="request">
 		<fieldset name="request"
-			addfieldprefix="Yepr\Component\Content_extended\Administrator\Field" >
+			addfieldprefix="Yepr\Component\ContentExtended\Administrator\Field" >
 
 			<field
 				name="id"
@@ -33,7 +33,7 @@
 		<!-- Basic options. -->
 		<fieldset name="basic"
 			label="COM_CONTENT_ATTRIBS_ARTICLE_SETTINGS_LABEL"
-			addfieldprefix="Yepr\Component\Content_extended\Administrator\Field"
+			addfieldprefix="Yepr\Component\ContentExtended\Administrator\Field"
 		>
 
 			<field

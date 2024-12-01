@@ -11,9 +11,9 @@
 defined('_JEXEC') or die;
 
 use Joomla\CMS\Router\Route;
-use Yepr\Component\Content_extended\Site\Helper\RouteHelper;
+use Yepr\Component\ContentExtended\Site\Helper\RouteHelper;
 
-/** @var \Yepr\Component\Content_extended\Site\View\Featured\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Site\View\Featured\HtmlView $this */
 ?>
 <ul class="com-content-blog__links">
     <?php foreach ($this->link_items as $item) : ?>

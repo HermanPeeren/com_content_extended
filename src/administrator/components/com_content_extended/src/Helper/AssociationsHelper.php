@@ -8,12 +8,12 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Administrator\Helper;
+namespace Yepr\Component\ContentExtended\Administrator\Helper;
 
 use Joomla\CMS\Association\AssociationExtensionHelper;
 use Joomla\CMS\Language\Associations;
 use Joomla\CMS\Table\Table;
-use Yepr\Component\Content_extended\Site\Helper\AssociationHelper;
+use Yepr\Component\ContentExtended\Site\Helper\AssociationHelper;
 
 // phpcs:disable PSR1.Files.SideEffects
 \defined('_JEXEC') or die;

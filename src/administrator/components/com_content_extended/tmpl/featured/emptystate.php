@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 
 use Joomla\CMS\Layout\LayoutHelper;
 
-/** @var \Yepr\Component\Content_extended\Administrator\View\Featured\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Administrator\View\Featured\HtmlView $this */
 
 $displayData = [
     'textPrefix' => 'COM_CONTENT',

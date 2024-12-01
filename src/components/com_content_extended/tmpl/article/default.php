@@ -18,10 +18,10 @@ use Joomla\CMS\Layout\FileLayout;
 use Joomla\CMS\Layout\LayoutHelper;
 use Joomla\CMS\Router\Route;
 use Joomla\CMS\Uri\Uri;
-use Yepr\Component\Content_extended\Administrator\Extension\ContentComponent;
-use Yepr\Component\Content_extended\Site\Helper\RouteHelper;
+use Yepr\Component\ContentExtended\Administrator\Extension\ContentComponent;
+use Yepr\Component\ContentExtended\Site\Helper\RouteHelper;
 
-/** @var \Yepr\Component\Content_extended\Site\View\Article\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Site\View\Article\HtmlView $this */
 // Create shortcuts to some parameters.
 $params  = $this->item->params;
 $canEdit = $params->get('access-edit');

@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Site\Model;
+namespace Yepr\Component\ContentExtended\Site\Model;
 
 use Joomla\CMS\Factory;
 use Joomla\CMS\Form\Form;
@@ -30,7 +30,7 @@ use Joomla\Utilities\ArrayHelper;
  *
  * @since  1.5
  */
-class FormModel extends \Yepr\Component\Content_extended\Administrator\Model\ArticleModel
+class FormModel extends \Yepr\Component\ContentExtended\Administrator\Model\ArticleModel
 {
     /**
      * Model typeAlias string. Used for version history.

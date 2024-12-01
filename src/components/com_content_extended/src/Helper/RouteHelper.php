@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Site\Helper;
+namespace Yepr\Component\ContentExtended\Site\Helper;
 
 use Joomla\CMS\Categories\CategoryNode;
 use Joomla\CMS\Language\Multilanguage;

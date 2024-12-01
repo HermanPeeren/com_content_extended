@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 
 use Joomla\CMS\Layout\LayoutHelper;
 
-/** @var \Yepr\Component\Content_extended\Site\View\Category\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Site\View\Category\HtmlView $this */
 ?>
 <div class="com-content-category category-list">
 

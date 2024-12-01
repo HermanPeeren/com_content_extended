@@ -450,7 +450,7 @@
 		</fieldset>
 
 		<fieldset name="article" label="COM_CONTENT_ATTRIBS_FIELDSET_LABEL"
-			addfieldprefix="Yepr\Component\Content_extended\Administrator\Field"
+			addfieldprefix="Yepr\Component\ContentExtended\Administrator\Field"
 		>
 
 			<field

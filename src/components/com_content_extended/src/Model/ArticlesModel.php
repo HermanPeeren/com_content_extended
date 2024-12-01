@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Site\Model;
+namespace Yepr\Component\ContentExtended\Site\Model;
 
 use Joomla\CMS\Component\ComponentHelper;
 use Joomla\CMS\Factory;
@@ -17,8 +17,8 @@ use Joomla\CMS\Language\Associations;
 use Joomla\CMS\Language\Multilanguage;
 use Joomla\CMS\MVC\Model\ListModel;
 use Joomla\CMS\Plugin\PluginHelper;
-use Yepr\Component\Content_extended\Administrator\Extension\ContentComponent;
-use Yepr\Component\Content_extended\Site\Helper\AssociationHelper;
+use Yepr\Component\ContentExtended\Administrator\Extension\ContentComponent;
+use Yepr\Component\ContentExtended\Site\Helper\AssociationHelper;
 use Joomla\Database\ParameterType;
 use Joomla\Database\QueryInterface;
 use Joomla\Registry\Registry;

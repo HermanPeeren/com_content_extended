@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Site\Model;
+namespace Yepr\Component\ContentExtended\Site\Model;
 
 use Joomla\CMS\Categories\Categories;
 use Joomla\CMS\Categories\CategoryNode;
@@ -16,7 +16,7 @@ use Joomla\CMS\Factory;
 use Joomla\CMS\Language\Multilanguage;
 use Joomla\CMS\MVC\Model\ListModel;
 use Joomla\CMS\Table\Table;
-use Yepr\Component\Content_extended\Site\Helper\QueryHelper;
+use Yepr\Component\ContentExtended\Site\Helper\QueryHelper;
 use Joomla\Utilities\ArrayHelper;
 
 // phpcs:disable PSR1.Files.SideEffects

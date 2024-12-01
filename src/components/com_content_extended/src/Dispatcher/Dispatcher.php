@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Site\Dispatcher;
+namespace Yepr\Component\ContentExtended\Site\Dispatcher;
 
 use Joomla\CMS\Dispatcher\ComponentDispatcher;
 use Joomla\CMS\Language\Text;

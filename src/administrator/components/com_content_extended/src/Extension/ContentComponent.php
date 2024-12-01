@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Administrator\Extension;
+namespace Yepr\Component\ContentExtended\Administrator\Extension;
 
 use Joomla\CMS\Association\AssociationServiceInterface;
 use Joomla\CMS\Association\AssociationServiceTrait;
@@ -31,9 +31,9 @@ use Joomla\CMS\Tag\TagServiceInterface;
 use Joomla\CMS\Tag\TagServiceTrait;
 use Joomla\CMS\Workflow\WorkflowServiceInterface;
 use Joomla\CMS\Workflow\WorkflowServiceTrait;
-use Yepr\Component\Content_extended\Administrator\Helper\ContentHelper;
-use Yepr\Component\Content_extended\Administrator\Service\HTML\AdministratorService;
-use Yepr\Component\Content_extended\Administrator\Service\HTML\Icon;
+use Yepr\Component\ContentExtended\Administrator\Helper\ContentHelper;
+use Yepr\Component\ContentExtended\Administrator\Service\HTML\AdministratorService;
+use Yepr\Component\ContentExtended\Administrator\Service\HTML\Icon;
 use Psr\Container\ContainerInterface;
 
 // phpcs:disable PSR1.Files.SideEffects

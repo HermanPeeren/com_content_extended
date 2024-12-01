@@ -10,9 +10,9 @@
 
 defined('_JEXEC') or die;
 
-use Yepr\Component\Content_extended\Site\Helper\RouteHelper;
+use Yepr\Component\ContentExtended\Site\Helper\RouteHelper;
 
-/** @var \Yepr\Component\Content_extended\Administrator\View\Article\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Administrator\View\Article\HtmlView $this */
 
 $icon     = 'icon-check';
 $title    = $this->item ? $this->item->title : '';

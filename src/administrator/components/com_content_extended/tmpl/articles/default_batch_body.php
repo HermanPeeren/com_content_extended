@@ -15,7 +15,7 @@ use Joomla\CMS\Language\Multilanguage;
 use Joomla\CMS\Language\Text;
 use Joomla\CMS\Layout\LayoutHelper;
 
-/** @var \Yepr\Component\Content_extended\Administrator\View\Articles\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Administrator\View\Articles\HtmlView $this */
 
 $params = ComponentHelper::getParams('com_content_extended');
 

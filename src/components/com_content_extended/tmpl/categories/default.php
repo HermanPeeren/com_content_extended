@@ -17,7 +17,7 @@ use Joomla\CMS\Layout\LayoutHelper;
 Text::script('JGLOBAL_EXPAND_CATEGORIES');
 Text::script('JGLOBAL_COLLAPSE_CATEGORIES');
 
-/** @var \Yepr\Component\Content_extended\Site\View\Categories\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Site\View\Categories\HtmlView $this */
 /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
 $wa = $this->getDocument()->getWebAssetManager();
 $wa->getRegistry()->addExtensionRegistryFile('com_categories');

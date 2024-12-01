@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 3 or later; see LICENSE.txt
  */
 
-namespace Yepr\Component\Content_extended\Administrator\View\Articles;
+namespace Yepr\Component\ContentExtended\Administrator\View\Articles;
 
 use Joomla\CMS\Component\ComponentHelper;
 use Joomla\CMS\Factory;
@@ -19,8 +19,8 @@ use Joomla\CMS\MVC\View\HtmlView as BaseHtmlView;
 use Joomla\CMS\Plugin\PluginHelper;
 use Joomla\CMS\Toolbar\Button\DropdownButton;
 use Joomla\CMS\Toolbar\ToolbarHelper;
-use Yepr\Component\Content_extended\Administrator\Extension\ContentComponent;
-use Yepr\Component\Content_extended\Administrator\Helper\ContentHelper;
+use Yepr\Component\ContentExtended\Administrator\Extension\ContentComponent;
+use Yepr\Component\ContentExtended\Administrator\Helper\ContentHelper;
 
 // phpcs:disable PSR1.Files.SideEffects
 \defined('_JEXEC') or die;

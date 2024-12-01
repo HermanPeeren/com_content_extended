@@ -17,9 +17,9 @@ use Joomla\CMS\Language\Text;
 use Joomla\CMS\Layout\LayoutHelper;
 use Joomla\CMS\Router\Route;
 use Joomla\CMS\Session\Session;
-use Yepr\Component\Content_extended\Site\Helper\RouteHelper;
+use Yepr\Component\ContentExtended\Site\Helper\RouteHelper;
 
-/** @var \Yepr\Component\Content_extended\Administrator\View\Articles\HtmlView $this */
+/** @var \Yepr\Component\ContentExtended\Administrator\View\Articles\HtmlView $this */
 
 $app = Factory::getApplication();
 
