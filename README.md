@@ -1,4 +1,4 @@
-# com_content_extended
+# com_contentextended
 A component in which all com_content classes are extended, so you can easily change things.
 
 A proof of concept.

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="component" method="upgrade">
+	<name>COM_CONTENTEXTENDED_NAME</name>
+	<author>Herman Peeren &amp; Pieter-Jan de Vries</author>
+	<creationDate>2024</creationDate>
+	<copyright>(C) 2024 Yepr/Obix</copyright>
+	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+	<authorEmail>herman@yepr.nl</authorEmail>
+	<authorUrl>obix.nl</authorUrl>
+	<version>1.0.0</version>
+	<description>COM_CONTENTEXTENDED_DESCRIPTION</description>
+	<namespace path="src">Yepr\Component\ContentExtended</namespace>
+
+	<files folder="components/com_contentextended">
+		<folder>forms</folder>
+		<folder>language</folder>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+	</files>
+
+	<administration>
+		<menu>COM_CONTENTEXTENDED_NAME</menu>
+		<submenu>
+			<menu link="option=com_contentextended&amp;view=articles"
+				  view="articles">COM_CONTENTEXTENDED_ARTICLES
+			</menu>
+		</submenu>
+
+		<files folder="administrator/components/com_contentextended">
+			<folder>forms</folder>
+			<folder>language</folder>
+			<folder>layouts</folder>
+			<folder>services</folder>
+			<folder>src</folder>
+			<folder>tmpl</folder>
+			<file>access.xml</file>
+			<file>config.xml</file>
+			<file>content.xml</file>
+		</files>
+	</administration>
+
+	<dashboards>
+		<dashboard title="COM_CONTENT_DASHBOARD_TITLE" icon="icon-file-alt">content</dashboard>
+	</dashboards>
+
+	<media folder="media/com_contentextended" destination="com_contentextended">
+		<folder>js</folder>
+		<file>joomla.asset.json</file>
+	</media>
+</extension>
