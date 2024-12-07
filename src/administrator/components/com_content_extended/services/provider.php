@@ -1,11 +1,11 @@
 <?php
 
 /**
- * @package     Joomla.Administrator
- * @subpackage  com_content_extended
+ * @package         Joomla.Administrator
+ * @subpackage      com_content_extended
  *
  * @copyright   (C) 2024 Herman Peeren, Yepr
- * @license     GNU General Public License version 3 or later; see LICENSE.txt
+ * @license         GNU General Public License version 3 or later; see LICENSE.txt
  */
 
 \defined('_JEXEC') or die;
@@ -21,10 +21,10 @@ use Joomla\CMS\Extension\Service\Provider\MVCFactory;
 use Joomla\CMS\Extension\Service\Provider\RouterFactory;
 use Joomla\CMS\HTML\Registry;
 use Joomla\CMS\MVC\Factory\MVCFactoryInterface;
-use Yepr\Component\ContentExtended\Administrator\Extension\ContentComponent;
-use Yepr\Component\ContentExtended\Administrator\Helper\AssociationsHelper;
 use Joomla\DI\Container;
 use Joomla\DI\ServiceProviderInterface;
+use Yepr\Component\ContentExtended\Administrator\Extension\ContentComponent;
+use Yepr\Component\ContentExtended\Administrator\Helper\AssociationsHelper;
 
 /**
  * The content service provider.
@@ -45,15 +45,15 @@ return new class () implements ServiceProviderInterface {
     {
         $container->set(AssociationExtensionInterface::class, new AssociationsHelper());
 
-        $container->registerServiceProvider(new CategoryFactory('\\Joomla\\Component\\ContentExtended'));
-        $container->registerServiceProvider(new MVCFactory('\\Joomla\\Component\\ContentExtended'));
-        $container->registerServiceProvider(new ComponentDispatcherFactory('\\Joomla\\Component\\ContentExtended'));
-        $container->registerServiceProvider(new RouterFactory('\\Joomla\\Component\\ContentExtended'));
+        $container->registerServiceProvider(new CategoryFactory('\\Yepr\\Component\\ContentExtended'));
+        $container->registerServiceProvider(new MVCFactory('\\Yepr\\Component\\ContentExtended'));
+        $container->registerServiceProvider(new ComponentDispatcherFactory('\\Yepr\\Component\\ContentExtended'));
+        $container->registerServiceProvider(new RouterFactory('\\Yepr\\Component\\ContentExtended'));
 
         $container->set(
             ComponentInterface::class,
             function (Container $container) {
-                $component = new Content_extendedComponent($container->get(ComponentDispatcherFactoryInterface::class));
+                $component = new ContentComponent($container->get(ComponentDispatcherFactoryInterface::class));
 
                 $component->setRegistry($container->get(Registry::class));
                 $component->setMVCFactory($container->get(MVCFactoryInterface::class));
