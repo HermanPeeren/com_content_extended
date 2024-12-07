@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="component" method="upgrade">
-	<name>com_content_extended</name>
+	<name>COM_CONTENT_EXTENDED</name>
 	<author>Herman Peeren &amp; Pieter-Jan de Vries</author>
 	<creationDate>2024</creationDate>
 	<copyright>(C) 2024 Yepr/Obix</copyright>
@@ -8,7 +8,7 @@
 	<authorEmail>herman@yepr.nl</authorEmail>
 	<authorUrl>obix.nl</authorUrl>
 	<version>1.0.0</version>
-	<description>com_content extended</description>
+	<description>COM_CONTENT_EXTENDED_DESCRIPTION</description>
 	<namespace path="src">Yepr\Component\ContentExtended</namespace>
 
 	<files folder="components/com_content_extended">
@@ -19,6 +19,13 @@
 	</files>
 
 	<administration>
+		<menu>COM_CONTENT_EXTENDED_ARTICLE_CONTENT</menu>
+		<submenu>
+			<menu link="option=com_content_extended&amp;view=articles"
+				  view="articles">COM_CONTENT_EXTENDED
+			</menu>
+		</submenu>
+
 		<files folder="administrator/components/com_content_extended">
 			<filename>access.xml</filename>
 			<filename>config.xml</filename>
