@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="component" method="upgrade">
-	<name>COM_CONTENT_EXTENDED</name>
+	<name>COM_CONTENT_EXTENDED_NAME</name>
 	<author>Herman Peeren &amp; Pieter-Jan de Vries</author>
 	<creationDate>2024</creationDate>
 	<copyright>(C) 2024 Yepr/Obix</copyright>
@@ -19,10 +19,10 @@
 	</files>
 
 	<administration>
-		<menu>COM_CONTENT_EXTENDED_ARTICLE_CONTENT</menu>
+		<menu>COM_CONTENT_EXTENDED_NAME</menu>
 		<submenu>
 			<menu link="option=com_content_extended&amp;view=articles"
-				  view="articles">COM_CONTENT_EXTENDED
+				  view="articles">COM_CONTENT_EXTENDED_ARTICLES
 			</menu>
 		</submenu>
 
